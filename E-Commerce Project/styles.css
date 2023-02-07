@@ -263,3 +263,23 @@ button:active {
     padding-right: 6px;
     color: #bfbfbf;
 }
+
+/* LATEST BOOKS SECTION */
+
+.books {
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+/* EXPLORE SECTION */
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
