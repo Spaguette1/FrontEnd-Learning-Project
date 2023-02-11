@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    width: 50px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__link { 
+    margin-left: 20px;
+    padding: 8px;
+}
+
+.logo__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__container--title {
+    margin-left: 16px;
+}
