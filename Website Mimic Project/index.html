@@ -1,30 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+    </style>
+  </head>
+  <body>
     <section id="landing">
-        <div class="row">
-            <nav class="nav__container">
-                <div class="logo__container">
-                    <img class="logo" src="./Assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
-                    <h1 class="logo__container--title">Treact</h1>
-                </div>
-                <ul class="nav__links">
-                    <li><a class="nav__link" href="">About</a></li>
-                    <li><a class="nav__link" href="">Blog</a></li>
-                    <li><a class="nav__link" href="">Pricing</a></li>
-                    <li><a class="nav__link" href="">Contact Us</a></li>
-                    <li><a class="nav__link" href="">Login</a></li>
-                    <li><a class="nav__link" href="">Sign Up</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="row">
+        <nav class="nav__container">
+          <div class="logo__container">
+            <img
+              class="logo"
+              src="./Assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+              alt=""
+            />
+            <h1 class="logo__container--title">Treact</h1>
+          </div>
+          <ul class="nav__links">
+            <li><a class="nav__link" href="">About</a></li>
+            <li><a class="nav__link" href="">Blog</a></li>
+            <li><a class="nav__link" href="">Pricing</a></li>
+            <li><a class="nav__link" href="">Contact Us</a></li>
+            <li><a class="nav__link nav__link--secondary" href="">Login</a></li>
+            <li><a class="nav__link nav__link--primary" href="">Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
     </section>
-</body>
+
+    <section id="heading">
+        <div class="header__container">
+            <div class="row header__row">
+                <div class="header__info--container">
+                    <h1 class="header__info--title">Beautiful React Templates <span class="purple">for you.</span> </h1>
+                    <p class="header__info--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+                    <input type="text" class="header__info--input" placeholder="Your E-mail Address">
+                    <button class="header__info--button">Get Started</button>
+                    <p class="header__info--logo-strip-title">OUR TRUSTED CUSTOMERS</p>
+                    <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="" class="header__info--logo-strip">
+                </div>
+                <div class="header__img--container">
+                    <img src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="" class="header__img">
+                </div>
+            </div>
+        </div>
+
+    </section>
+  </body>
 </html>
