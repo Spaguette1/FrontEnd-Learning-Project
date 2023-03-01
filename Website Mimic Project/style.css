@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter'
 }
 
 .row {
@@ -37,6 +37,7 @@ li {
 img {
     width: 100%;
 }
+
 
 
 /* Nav */
@@ -90,4 +91,74 @@ img {
 .header__row {
     display: flex;
     flex-direction: row;
+    padding: 32px 32px 0px 32px;
+}
+
+.header__info--container {
+    
+}
+
+.header__info--title {
+    padding: 16px;
+    font-size: 40px;
+}
+
+.header__info--para {
+    font-size: 20px;
+    padding: 24px 0;
+}
+
+.header__info--input-section {
+    text-align: left;
+    position: relative;
+}
+
+.header__info--input {
+    width: 100%;
+    padding: 32px 20px;
+    border: 2px;
+    border-radius: 9999px;
+    border-style: solid;
+    border-color: rgb(226,232,240);
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(226,232,240);
+}
+
+.header__info--button {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    z-index: 0;
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(100,21,255);
+    border-radius: 9999px;
+    width: 160px;
+}
+
+
+.header__info--input-section {
+
+}
+
+.header__info--logo-strip-title {
+    margin-top: 80px;
+    font-weight: bold;
+    color: rgb(160,174,192);
+}
+
+.header__info--logo-strip {
+    margin-top: 16px;
+    padding-right: 128px;
+}
+
+.header__img--container {
+    width: 100%;
+}
+
+.header__img {
+    width: 100%;
 }
