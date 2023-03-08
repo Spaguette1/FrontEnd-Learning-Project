@@ -11,13 +11,6 @@
     margin: 0 auto;
 }
 
-.nav__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-}
-
 .logo {
     width: 50px;
 }
@@ -47,6 +40,13 @@ p {
 
 /* Nav */
 
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
 .nav__link { 
     margin-left: 24px;
     padding: 8px;
@@ -56,7 +56,6 @@ p {
 }
 
 .nav__link:hover {
-    
    text-decoration-line: underline;
     color: rgb(100,21,255);
 }
@@ -467,6 +466,10 @@ SECTION
     width: 80%;
 }
 
+.pricing__container {
+    padding: 160px 0;
+}
+
 .pricing__description {
     display: flex;
     justify-content: center;
@@ -673,6 +676,97 @@ SECTION
     transform: translateX(2px);
     --tw-translate-y: -1px;
     cursor:pointer;
+}
+
+/*
+FOOTER
+SECTION
+*/
+
+.container__footer {
+    background-color: rgb(100,21,255);
+
+}
+
+.footer__container {
+    padding: 80px 0;
+    background-color: rgb(100,21,255);
+    color: white;
+}
+
+.footer__logo {
+    width: 50px;
+    padding-right: 5px;
+}
+
+.footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.footer__link {
+    width: calc(100%/5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px 5px;
+    transition: all 100ms ease;
+}
+
+.link:hover {
+    text-decoration-line: underline;
+} 
+
+.footer__copyright {
+    font-weight: 700;
+    color: rgb(154, 172, 253);
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    border-top: solid 2px;
+    border-top-color: rgb(123, 64, 241);
+}
+
+.footer__logo--container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__icons {
+    display: flex;
+    padding-left: 40px;
+}
+
+.footer__icon {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 40px;
+    border: solid lightgrey 2px;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    width: 40px;
+    margin: 0px 5px;
+    transition: all 300ms ease;
+}
+
+.footer__icon:hover {
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
 }
 
 
